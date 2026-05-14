@@ -1,0 +1,10 @@
+# Local-only secrets / tuning (copy from .env.example)
+.env
+
+# Airflow runtime logs (bind-mounted)
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
